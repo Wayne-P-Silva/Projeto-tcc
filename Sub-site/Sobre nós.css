@@ -17,20 +17,18 @@ body {
 /*A caixa onde fica todo o conteudo central*/
 .wrapper{
     position: relative;
-    width: 400px;
-    height: 440px;
+    width: 600em;
+    height: 52em;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
-    justify-content: center;
     color: white;
-    align-items: center;
     flex-direction: column;
     overflow: hidden;
-    
+    margin-bottom: -1.36em;
 }
 /*Barra onde fica a logo e as principais funcionalidades*/
 header {
@@ -114,7 +112,8 @@ header {
 /*Para deixar a caixa centralizada*/
 .wrapper .form-box {
     width: 100%;
-    padding: 40px;
+    padding: 1.4rem;
+
 }
 
 .wrapper .form-box.login {
@@ -165,7 +164,7 @@ header {
 }
 /*Quando o usuario clica para digitar em email ou senha o que esta escrito sobe e aparece um cursor para*/
 .input-box input:focus~label,
-.input-box input:valid~label {
+.input-box input:valid~label{
     top: -5px;
 }
 /*A caixa onde o usuario digita seu email e sua senha*/
@@ -246,9 +245,25 @@ header {
     font-weight: 600;
 }
 
+img{
+    width: 36%;
+    border: 0.2vw solid white;
+}
+
+.info p{
+    padding: 2rem 68.4rem 0rem 4rem;
+}
+
 .footer{
 	background-color: #24262b;
-
+    position: absolute;
+    bottom: 0;
+    padding: 1em 0em 1em 0em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 /*responsive*/

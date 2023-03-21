@@ -17,11 +17,11 @@ body {
 /*A caixa onde fica todo o conteudo central*/
 .wrapper{
     position: relative;
-    width: 400px;
-    height: 440px;
+    width: 600em;
+    height: 52em;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
@@ -30,7 +30,7 @@ body {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    
+    margin-bottom: -1.36em;
 }
 /*Barra onde fica a logo e as principais funcionalidades*/
 header {
@@ -115,6 +115,7 @@ header {
 .wrapper .form-box {
     width: 100%;
     padding: 40px;
+    
 }
 
 .wrapper .form-box.login {
@@ -248,7 +249,14 @@ header {
 
 .footer{
 	background-color: #24262b;
-
+    position: absolute;
+    bottom: 0;
+    padding: 1em 0em 1em 0em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
 /*responsive*/
